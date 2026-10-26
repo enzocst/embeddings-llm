@@ -1,7 +1,6 @@
 # Gerador de Embedding com Ollama
 
-Este projeto lê um texto digitado no terminal, gera seu embedding usando o
-Ollama e exibe o vetor resultante.
+Este projeto tem como objetivo principal realizar a leitura de um texto e fazer a geração do embedding a partir dele.
 
 O modelo utilizado pelo arquivo `embedding.py` é o
 [`nomic-embed-text`](https://ollama.com/library/nomic-embed-text).
