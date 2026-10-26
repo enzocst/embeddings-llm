@@ -18,7 +18,7 @@ O modelo utilizado pelo arquivo `embedding.py` é o
 
 1. Acesse a página oficial de download do
    [Ollama](https://ollama.com/download).
-2. Clique em **Download for Windows**.
+2. Clique em **Download manually**.
 3. Execute o instalador baixado e siga as instruções na tela.
 4. Após a instalação, abra o **PowerShell** ou o **Prompt de Comando**.
 5. Verifique se o Ollama foi instalado corretamente:
