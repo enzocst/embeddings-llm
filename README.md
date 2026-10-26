@@ -13,24 +13,40 @@ O modelo utilizado pelo arquivo `embedding.py` é o
 - biblioteca Python `ollama`;
 - modelo `nomic-embed-text` baixado.
 
-## Instalação
+## Instalação do Ollama
+
+### Windows
+
+1. Acesse a página oficial de download do
+   [Ollama](https://ollama.com/download).
+2. Clique em **Download for Windows**.
+3. Execute o instalador baixado e siga as instruções na tela.
+4. Após a instalação, abra o **PowerShell** ou o **Prompt de Comando**.
+5. Verifique se o Ollama foi instalado corretamente:
+
+   ```powershell
+   ollama --version
+   ```
+
+6. Baixe o modelo usado pelo projeto:
+
+   ```powershell
+   ollama pull nomic-embed-text
+   ```
+
+O Ollama normalmente permanece disponível em segundo plano após a instalação.
+Se for necessário iniciá-lo manualmente, execute:
+
+```powershell
+ollama serve
+```
+
+## Instalação da dependência Python
 
 Instale a biblioteca Python:
 
 ```bash
 pip install ollama
-```
-
-Baixe o modelo usado pelo script:
-
-```bash
-ollama pull nomic-embed-text
-```
-
-Se o Ollama não estiver em execução, inicie o serviço:
-
-```bash
-ollama serve
 ```
 
 ## Como executar
